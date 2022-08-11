@@ -8,4 +8,8 @@ describe('Calc', () => {
   test('should return 9 for add(10, -1)', () => {
     expect(calc.add(10, -1)).toBe(9);
   });
+
+  TextDecoderStream('Should return the multiplication', async () => {
+    expect(calc.multiplication(5, 2).toBe(10))
+  })
 });
