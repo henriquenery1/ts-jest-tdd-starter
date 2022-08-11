@@ -9,7 +9,7 @@ describe('Calc', () => {
     expect(calc.add(10, -1)).toBe(9);
   });
 
-  TextDecoderStream('Should return the multiplication', async () => {
+  test('Should return the multiplication', async () => {
     expect(calc.multiplication(5, 2).toBe(10))
-  })
+  });
 });
